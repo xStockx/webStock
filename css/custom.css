@@ -1,8 +1,13 @@
 body {
   font-family: 'Lato';
   text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
   color: #999;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 h1 {
   padding: 30px;
