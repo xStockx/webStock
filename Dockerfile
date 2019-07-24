@@ -10,4 +10,5 @@ RUN mkdir /usr/share/nginx/webStock \
 ADD . /usr/share/nginx/webStock
 WORKDIR /usr/share/nginx/webStock
 RUN npm install
+EXPOSE 80
 CMD ["node", "index.js"]
